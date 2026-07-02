@@ -1,0 +1,5 @@
+{
+  "key.speardebug.dump_mainhand": "Dump main-hand item NBT",
+  "key.speardebug.dump_offhand": "Dump off-hand item NBT",
+  "category.speardebug": "Spear Debug Tool"
+}

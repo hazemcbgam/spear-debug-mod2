@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "speardebug",
+  "version": "${version}",
+  "name": "Spear Debug Tool",
+  "description": "Diagnostic tool: dumps the NBT/components of the held item to chat and log, to identify how ViaBackwards downgrades the 1.21.11 Spear on older clients.",
+  "authors": ["you"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.speardebug.SpearDebugClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
